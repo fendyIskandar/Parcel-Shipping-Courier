@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:parcel_shipping_courier/widgets/my_bottom_navigation_bar.dart';
+import 'package:parcel_shipping_courier/widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -247,7 +247,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const MyBottomNavigationBar(),
     );
   }
 }
